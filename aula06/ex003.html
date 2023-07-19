@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa em JS</title>
+    <style>
+        body{
+            background-color: rgb(113, 113, 223);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição!!</p>
+    <script>
+
+        /* para trocar de tipo
+        Number(n) - parseFloat(n) - parseFloat(n)
+        String(n) - n.toString
+
+        */
+        var n1 = Number.parseInt(window.prompt('digite um numero')) // retorna string
+        var n2 = Number(prompt('digite outro numero')) // retorna string
+        var soma = n1 + n2
+        alert(`A soma entre ${n1} e o ${n2} é ${soma}`)
+
+        //n.length - quantos caracteres tem uma string
+        //n.toUpperCase - tudo para MAISCULAS
+        //N.toLowerCase = tudo para minusculas
+    </script>
+</body>
+</html>
