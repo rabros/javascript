@@ -1,0 +1,41 @@
+Operadores
+
+Aritimeticos
+
++ -> adição
+- -> subtração
+* -> multiplacação
+/ -> divisao
+% -> resto da divisao
+** -> exponencioação
+ATRIBUIÇÃO
+ incremento 
+
+ n++ > n += 1 > n= n + 1
+ n-- > n -= 1 > n= n - 1
+
+ RELACIONAL
+
+ > maior
+ < menos
+ >= maior ou =
+ <= menos ou = 
+ == igual
+ != diferente
+
+ !negação
+ && E
+ || OU
+
+ TERNÁRIO
+
+ ?
+ :
+  var media = 5.5
+ media > 7? 'aprovado':'reprovado'
+ reprovado
+
+> nome = 'JOAO'
+'JOAO'
+> 'joao' == nome ? 'YES':'NO'
+'NO'
