@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Você é estrangeiro?</h1>
+    <label for="text">Digite seu país</label>
+    <input type="text" name="país" id="país">
+    <input type="submit" value="Verificar" onclick="verificar()">
+    <div id="res">
+
+    </div>
+
+    <script>
+        function verificar(){
+            var opa = document.getElementById('país')
+            var res = document.querySelector('div#res')
+            var país = String(opa.value)
+            if(país == "Brasil"){
+                res.innerHTML = '<p>Você é Brasileiro</p>'
+            }
+            else{
+                res.innerHTML = "<p>Você é da Gringa</p>"
+            }
+        }
+    </script>
+</body>
+</html>
