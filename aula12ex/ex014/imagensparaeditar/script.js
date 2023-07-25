@@ -14,7 +14,7 @@ if(hora >= 0 && hora < 12){
     document.body.style.background = 'orange'
 } else {
     // Boa noite
-    img.src = 'fotonoite.jpg'
+    img.src = 'fotonoite.jpg' //salvar como png
     document.body.style.background = 'Gray'
 }
 }
