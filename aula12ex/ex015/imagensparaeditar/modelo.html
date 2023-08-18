@@ -13,11 +13,20 @@
     <section>
         <div>
            <p>Ano de Nascimento:
-                in     
+                <input type="number" name="txtnasc" id="txtnasc" min="0">
            </p> 
+           <p>Sexo:
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+           </p>
+           <p>
+            <input type="button" value="Verificar" onclick="verificar()">
+           </p>
         </div>
-        <div>
-            
+        <div id="res">
+            <p>Preencha os dados acima para obter o resultado!</p>
         </div>
     </section>
     <footer>
