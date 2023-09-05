@@ -6,7 +6,7 @@ function contar(){
     var fim = Number(tfim.value)
     var passo = Number(tpasso.value)
     var res = document.querySelector('div#res')
-    for(c = inicio; c <= fim; c =+ passo){
+    for(var c = inicio; c <= fim; c += passo){
         res.innerHTML = `${c}`
     }
 }
